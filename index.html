@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Desafio JS</title>
-</head>
-<body>
-    <h1>Desafio JS</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis pelis favoritas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" onclick="fetchData('Spiderman')">Spiderman</a></li>
+        <li><a href="#" onclick="fetchData('Avengers')">Avengers</a></li>
+        <li><a href="#" onclick="fetchData('Superman')">Superman</a></li>
+        <li><a href="#" onclick="fetchData('The Matrix')">The Matrix</a></li>
+      </ul>
+    </nav>
+
+    <div id="container">
+      <h1>Mis pelis favoritas</h1>
+      <br />
+      <img src="giphy.gif" alt="gif" />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
